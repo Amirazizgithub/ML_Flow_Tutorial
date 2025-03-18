@@ -27,7 +27,7 @@ if __name__ == "__main__":
     # Set tracking URI and experiment
     remote_server_uri = os.getenv("MLFLOW_TRACKING_URI")
     mlflow.set_tracking_uri(remote_server_uri)
-    mlflow.set_experiment("my_experiment")  # Replace with your experiment name
+    mlflow.set_experiment("Elastic_Regression")  # Replace with your experiment name
 
     # Load dataset
     try:
