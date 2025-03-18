@@ -25,7 +25,7 @@ if __name__ == "__main__":
     np.random.seed(40)
 
     # Set tracking URI and experiment
-    remote_server_uri = os.getenv("MLFLOW_TRACKING_URI")
+    remote_server_uri = os.getenv("AWS_MLFLOW_TRACKING_URI")
     mlflow.set_tracking_uri(remote_server_uri)
     mlflow.set_experiment("Elastic_Regression")  # Replace with your experiment name
 
