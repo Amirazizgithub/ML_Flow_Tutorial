@@ -76,7 +76,7 @@ if __name__ == "__main__":
         mlflow.log_metric("mae", mae)
 
         # For remote server
-        mlflow.set_tracking_uri(os.getenv("MLFLOW_SERVER_URI"))
+        mlflow.set_tracking_uri(os.getenv("MLFLOW_TRACKING_URI"))
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
         # Model registry does not work with file store
