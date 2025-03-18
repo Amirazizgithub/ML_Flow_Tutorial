@@ -5,8 +5,11 @@
 ## For Dagshub:
 
 MLFLOW_TRACKING_URI=https://dagshub.com/.......
+
 MLFLOW_TRACKING_USERNAME=xyz...
+
 MLFLOW_TRACKING_PASSWORD=6824692................
+
 python script.py
 
 
