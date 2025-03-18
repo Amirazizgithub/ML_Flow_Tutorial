@@ -1,0 +1,8 @@
+pandas
+numpy
+mlflow
+scikit-learn
+os
+sys
+pickle
+dotenv
