@@ -4,5 +4,6 @@ mlflow
 scikit-learn
 os
 sys
-pickle
+boto3
+python-dotenv
 dotenv
